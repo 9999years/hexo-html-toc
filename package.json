@@ -1,0 +1,34 @@
+{
+  "name": "hexo-html-toc",
+  "version": "0.0.1",
+  "description": "Hexo plugin to add a TOC to posts post-render",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "hexo",
+    "toc",
+    "filter",
+    "markdown",
+    "html"
+  ],
+  "author": "Rebecca Turner",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cheerio": "^0.22.11",
+    "@types/object-assign": "^4.0.30",
+    "cheerio": "^1.0.0-rc.3",
+    "object-assign": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.1",
+    "mocha": "^6.1.4",
+    "typescript": "^3.5.1"
+  }
+}
